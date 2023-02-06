@@ -1,0 +1,46 @@
+#shopping-cart {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .item {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .item img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .info {
+    margin-left: 20px;
+  }
+  
+  .quantity {
+    display: flex;
+    align-items: center;
+  }
+  
+  .minus-btn,
+  .plus-btn {
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .delete-btn,
+  .like-btn {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .like-btn.liked {
+    color: red;
+  }
